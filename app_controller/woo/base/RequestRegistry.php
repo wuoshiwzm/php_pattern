@@ -1,18 +1,21 @@
 <?php
 namespace woo\base;
+require_once ('woo\base\Request.php');
 /**
  * Created by PhpStorm.
  * User: jim
  * Date: 2017/2/20
- * Time: 11:45
+ * Time: 11:12
  */
-class Registry{
+
+class RequestRegistry extends Registry{
     private static $instance;
-    private $request;
+    private static $request;
 
     private function __construct()
     {
     }
+
     static function instance(){
         if(!isset(self::$instance)){
             self::$instance = new self();
@@ -20,13 +23,12 @@ class Registry{
         return self::$instance;
     }
 
-    function getRequest(){
-        return $this->request;
+    static function get_Request(){
+        return self::$request;
     }
 
-    function setRequest( Request $request){
-        $this->request = $request;
+    static function set_Request( Request $request){
+        self::$request = $request;
     }
-
 
 }
