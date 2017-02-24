@@ -6,7 +6,7 @@
  * Time: 9:23
  */
 
-require_once("woo/domain/Venue.php");
+require_once ("woo/domain/Venue.php");
 require_once ('woo/base/Registry.php');
 require_once ('woo/base/Request.php');
 

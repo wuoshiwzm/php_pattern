@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9e8c2054-562a-43d2-aa85-e9cc8195c341" name="Default" comment="tes">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/pattern.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_______app_controller/error.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_______app_controller/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_______app_controller/woo/base/Registry.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_______app_controller/woo/base/Request.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_______app_controller/woo/base/RequestRegistry.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_______app_controller/woo/controller/AddVenueController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_______app_controller/woo/controller/PageController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_______app_controller/woo/controller/add_venue.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_______app_controller/woo/domain/Venue.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/error.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/woo/base/111Registry.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/woo/base/111RequestRegistry.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/woo/base/Exceptions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/woo/base/Registry.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/woo/base/Request.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/woo/command/AddSpace.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/woo/command/AddVenue.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/woo/command/Command.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/woo/command/DefaultCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/woo/command/DefaultCommand2.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/woo/command/ListVenues.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/woo/controller/AddVenueController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/woo/controller/AppController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/woo/controller/ApplicationHelper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/woo/controller/Controller.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/woo/controller/PageController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/woo/controller/Request.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/woo/controller/add_venue.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/woo/domain/Collections.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/woo/domain/DomainObject.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/woo/domain/Event.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/woo/domain/Finders.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/woo/domain/HelperFactory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/woo/domain/ObjectWatcher.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/woo/domain/Space.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/woo/domain/Venue.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/woo/mapper/Collection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/woo/mapper/Collections.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/woo/mapper/EventMapper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/woo/mapper/Mapper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/woo/mapper/SpaceMapper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/woo/mapper/VenueMapper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/woo/view/ViewHelper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/woo/view/addspace.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/woo/view/addvenue.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/woo/view/listvenues.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/woo/view/main.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app_controller/error.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app_controller/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app_controller/test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app_controller/woo/base/Registry.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app_controller/woo/base/Request.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app_controller/woo/base/RequestRegistry.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app_controller/woo/controller/AddVenueController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app_controller/woo/controller/PageController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app_controller/woo/controller/add_venue.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app_controller/woo/domain/Venue.php" afterPath="" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="AddVenue.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/woo/command/AddVenue.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" column="31" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Venue.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/woo/domain/Venue.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-69">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DomainObject.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/woo/domain/DomainObject.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="19" column="27" lean-forward="false" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ObjectWatcher.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/woo/domain/ObjectWatcher.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="54" column="33" lean-forward="false" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>getObject</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/error.php" />
+        <option value="$PROJECT_DIR$/app_controller/test.php" />
+        <option value="$PROJECT_DIR$/app_controller/woo/domain/Venue.php" />
+        <option value="$PROJECT_DIR$/app_controller/woo/base/Registry.php" />
+        <option value="$PROJECT_DIR$/app_controller/woo/base/Request.php" />
+        <option value="$PROJECT_DIR$/app_controller/index.php" />
+        <option value="$PROJECT_DIR$/app_controller/woo/base/RequestRegistry.php" />
+        <option value="$PROJECT_DIR$/app_controller/woo/controller/AddVenueController.php" />
+        <option value="$PROJECT_DIR$/app_controller/woo/controller/PageController.php" />
+        <option value="$PROJECT_DIR$/app_controller/woo/controller/add_venue.php" />
+        <option value="$PROJECT_DIR$/woo/base/RequestRegistry.php" />
+        <option value="$PROJECT_DIR$/woo/view/VH.php" />
+        <option value="$PROJECT_DIR$/test.php" />
+        <option value="$PROJECT_DIR$/woo/view/ViewHelper.php" />
+        <option value="$PROJECT_DIR$/woo/view/addspace.php" />
+        <option value="$PROJECT_DIR$/woo/base/Registry.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pattern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pattern" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pattern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pattern" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="woo" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pattern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pattern" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="woo" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domain" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pattern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pattern" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="woo" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pattern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pattern" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="woo" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="command" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pattern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pattern" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="woo" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\workspace\pattern\woo" />
+      <recent name="F:\workspace\pattern\woo\controller" />
+      <recent name="F:\workspace\pattern\woo\view" />
+      <recent name="F:\workspace\pattern\woo\base" />
+      <recent name="F:\workspace\pattern" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\workspace\pattern\woo\base" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9e8c2054-562a-43d2-aa85-e9cc8195c341" name="Default" comment="" />
+      <created>1487553783118</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1487553783118</updated>
+      <workItem from="1487553784370" duration="623000" />
+      <workItem from="1487556491665" duration="527000" />
+      <workItem from="1487558901908" duration="1915000" />
+      <workItem from="1487561242060" duration="3313000" />
+      <workItem from="1487568276290" duration="11641000" />
+      <workItem from="1487585203625" duration="188000" />
+      <workItem from="1487640938233" duration="688000" />
+      <workItem from="1487903617220" duration="3720000" />
+      <workItem from="1487921324310" duration="6465000" />
+    </task>
+    <task id="LOCAL-00001" summary="tes">
+      <created>1487570749451</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1487570749451</updated>
+    </task>
+    <task id="LOCAL-00002" summary="tes">
+      <created>1487572296948</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1487572296948</updated>
+    </task>
+    <task id="LOCAL-00003" summary="tes">
+      <created>1487577621780</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1487577621780</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="29080000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2700454" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26100153" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="tes" />
+    <option name="LAST_COMMIT_MESSAGE" value="tes" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app_controller/woo/controller/PageController.php" />
+    <entry file="file://$PROJECT_DIR$/app_controller/woo/controller/AddVenueController.php" />
+    <entry file="file://$PROJECT_DIR$/app_controller/woo/domain/Venue.php" />
+    <entry file="file://$PROJECT_DIR$/app_controller/woo/controller/add_venue.php" />
+    <entry file="file://$PROJECT_DIR$/app_controller/woo/base/RequestRegistry.php" />
+    <entry file="file://$PROJECT_DIR$/app_controller/woo/controller/PageController.php" />
+    <entry file="file://$PROJECT_DIR$/app_controller/woo/controller/AddVenueController.php" />
+    <entry file="file://$PROJECT_DIR$/app_controller/woo/domain/Venue.php" />
+    <entry file="file://$PROJECT_DIR$/app_controller/woo/controller/add_venue.php" />
+    <entry file="file://$PROJECT_DIR$/app_controller/woo/base/RequestRegistry.php" />
+    <entry file="file://$PROJECT_DIR$/app_controller/index.php" />
+    <entry file="file://$PROJECT_DIR$/app_controller/woo/base/Request.php" />
+    <entry file="file://$PROJECT_DIR$/app_controller/woo/base/Registry.php" />
+    <entry file="file://$PROJECT_DIR$/app_controller/test.php" />
+    <entry file="file://$PROJECT_DIR$/app_controller/index.php" />
+    <entry file="file://$PROJECT_DIR$/app_controller/woo/domain/Venue.php" />
+    <entry file="file://$PROJECT_DIR$/app_controller/woo/controller/PageController.php" />
+    <entry file="file://$PROJECT_DIR$/app_controller/woo/base/RequestRegistry.php" />
+    <entry file="file://$PROJECT_DIR$/index.php" />
+    <entry file="file://$PROJECT_DIR$/index.php" />
+    <entry file="file://$PROJECT_DIR$/error.php" />
+    <entry file="file://$PROJECT_DIR$/app_controller/error.php" />
+    <entry file="file://$PROJECT_DIR$/app_controller/test.php" />
+    <entry file="file://$PROJECT_DIR$/app_controller/woo/base/Registry.php" />
+    <entry file="file://$PROJECT_DIR$/app_controller/woo/base/Request.php" />
+    <entry file="file://$PROJECT_DIR$/app_controller/index.php" />
+    <entry file="file://$PROJECT_DIR$/app_controller/woo/domain/Venue.php" />
+    <entry file="file://$PROJECT_DIR$/app_controller/woo/controller/PageController.php" />
+    <entry file="file://$PROJECT_DIR$/app_controller/woo/controller/AddVenueController.php" />
+    <entry file="file://$PROJECT_DIR$/app_controller/woo/controller/add_venue.php" />
+    <entry file="file://$PROJECT_DIR$/app_controller/woo/base/RequestRegistry.php" />
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/woo/base/111RequestRegistry.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="27" column="19" lean-forward="false" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/woo/base/111Registry.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/woo/base/Request.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-734">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/woo/view/VH.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/woo/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/woo/controller/AppController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/woo/command/Command.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/woo/view/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/woo/controller/PageController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/woo/base/Registry.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="127" column="37" lean-forward="false" selection-start-line="127" selection-start-column="37" selection-end-line="127" selection-end-column="37" />
+          <folding>
+            <element signature="e#79#203#0#PHP" expanded="false" />
+            <element signature="e#205#967#0#PHP" expanded="false" />
+            <element signature="e#350#490#0#PHP" expanded="false" />
+            <element signature="e#496#651#0#PHP" expanded="false" />
+            <element signature="e#537#624#0#PHP" expanded="false" />
+            <element signature="e#657#737#0#PHP" expanded="false" />
+            <element signature="e#743#828#0#PHP" expanded="false" />
+            <element signature="e#834#964#0#PHP" expanded="false" />
+            <element signature="e#969#1713#0#PHP" expanded="false" />
+            <element signature="e#1044#1107#0#PHP" expanded="false" />
+            <element signature="e#1113#1253#0#PHP" expanded="false" />
+            <element signature="e#1259#1428#0#PHP" expanded="false" />
+            <element signature="e#1300#1401#0#PHP" expanded="false" />
+            <element signature="e#1434#1521#0#PHP" expanded="false" />
+            <element signature="e#1527#1626#0#PHP" expanded="false" />
+            <element signature="e#1632#1711#0#PHP" expanded="false" />
+            <element signature="e#1935#2075#0#PHP" expanded="false" />
+            <element signature="e#2081#2719#0#PHP" expanded="false" />
+            <element signature="e#2185#2596#0#PHP" expanded="false" />
+            <element signature="e#2372#2586#0#PHP" expanded="false" />
+            <element signature="e#2605#2692#0#PHP" expanded="false" />
+            <element signature="e#2725#2959#0#PHP" expanded="false" />
+            <element signature="e#2965#3042#0#PHP" expanded="false" />
+            <element signature="e#3048#3137#0#PHP" expanded="false" />
+            <element signature="e#3143#3269#0#PHP" expanded="false" />
+            <element signature="e#3275#3365#0#PHP" expanded="false" />
+            <element signature="e#3371#3677#0#PHP" expanded="false" />
+            <element signature="e#3681#4550#0#PHP" expanded="false" />
+            <element signature="e#3827#4021#0#PHP" expanded="false" />
+            <element signature="e#3918#4015#0#PHP" expanded="false" />
+            <element signature="e#4027#4167#0#PHP" expanded="false" />
+            <element signature="e#4173#4258#0#PHP" expanded="false" />
+            <element signature="e#4264#4361#0#PHP" expanded="false" />
+            <element signature="e#4367#4448#0#PHP" expanded="false" />
+            <element signature="e#4454#4547#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/woo/view/ViewHelper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/woo/view/addspace.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/woo/controller/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="26" column="55" lean-forward="false" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/woo/controller/Request.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1104">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/woo/command/AddVenue.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="31" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/woo/domain/Venue.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-69">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/woo/domain/DomainObject.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="19" column="27" lean-forward="false" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/woo/domain/ObjectWatcher.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="54" column="33" lean-forward="false" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

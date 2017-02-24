@@ -1,6 +1,6 @@
 <?php
 namespace woo\base;
-require_once ('woo\base\Request.php');
+require_once ('woo/base/Request.php');
 /**
  * Created by PhpStorm.
  * User: jim
@@ -8,12 +8,13 @@ require_once ('woo\base\Request.php');
  * Time: 11:12
  */
 
-class RequestRegistry extends Registry{
+class RequestRegistry extends Request {
     private static $instance;
     private static $request;
 
-    private function __construct()
+    public function __construct()
     {
+
     }
 
     static function instance(){
@@ -24,7 +25,7 @@ class RequestRegistry extends Registry{
     }
 
     static function get_Request(){
-        return self::$request;
+        return self::instance();
     }
 
     static function set_Request( Request $request){

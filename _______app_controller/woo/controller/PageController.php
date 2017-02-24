@@ -1,5 +1,10 @@
 <?php
 namespace woo\controller;
+use woo\base\Request;
+use woo\base\RequestRegistry;
+
+require_once '..\base\RequestRegistry.php';
+require_once '..\base\Request.php';
 /**
  * Created by PhpStorm.
  * User: jim
@@ -11,14 +16,12 @@ abstract class PageController{
     private $request;
     function __construct()
     {
-        $request = \woo\base\RequestRegistry::getRequest();
+        $request = RequestRegistry::get_Request();
         if(is_null($request)){
             $request = new Request();
         }
         $this->request = $request;
     }
-    abstract function process();
-
     function forward($resource){
         include ($resource);
         exit(0);
@@ -27,6 +30,8 @@ abstract class PageController{
     function getRequest(){
         return $this->request;
     }
+
+    abstract function process();
 
 
 }
