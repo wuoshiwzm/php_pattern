@@ -3,8 +3,8 @@ namespace woo\controller;
 use woo\base\Request;
 use woo\base\RequestRegistry;
 
-require_once '..\base\111RequestRegistry.php';
-require_once '..\base\Request.php';
+require_once 'woo/base/Registry.php';
+require_once 'woo/base/Request.php';
 /**
  * Created by PhpStorm.
  * User: jim
@@ -16,7 +16,7 @@ abstract class PageController{
     private $request;
     function __construct()
     {
-        $request = RequestRegistry::get_Request();
+        $request = \woo\base\RequestRegistry::getRequest();
         if(is_null($request)){
             $request = new Request();
         }

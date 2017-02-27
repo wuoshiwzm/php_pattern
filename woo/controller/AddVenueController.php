@@ -38,5 +38,3 @@ class AddVenueController extends PageController {
 
 }
 
-$test = new AddVenueController();
-$test->process();

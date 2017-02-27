@@ -6,10 +6,11 @@ require_once( "woo/base/Exceptions.php" );
 require_once( "woo/mapper/Mapper.php" );
 require_once( "woo/mapper/VenueMapper.php" );
 require_once( "woo/mapper/Collections.php" );
-require_once( "woo/domain.php" );
+//require_once( "woo/domain.php" );
 
 class SpaceMapper extends Mapper 
-                             implements \woo\domain\SpaceFinder {
+                             //implements \woo\domain\SpaceFinder
+    {
 
     function __construct() {
         parent::__construct();

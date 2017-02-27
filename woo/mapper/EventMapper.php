@@ -5,10 +5,11 @@ namespace woo\mapper;
 require_once( "woo/base/Exceptions.php" );
 require_once( "woo/mapper/Mapper.php" );
 require_once( "woo/mapper/Collections.php" );
-require_once( "woo/domain.php" );
+//require_once( "woo/domain.php" );
 
 class EventMapper extends Mapper 
-                             implements \woo\domain\EventFinder {
+//                             implements \woo\domain\EventFinder
+{
 
     function __construct() {
         parent::__construct();

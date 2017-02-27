@@ -34,7 +34,7 @@ class RequestRegistry extends Registry {
         return self::instance()->get('request');
     }
 
-    static function setRequest( \woo\controller\Request $request ) {
+    static function setRequest( \woo\base\Request $request ) {
         return self::instance()->set('request', $request );
     }
 
@@ -73,7 +73,7 @@ class SessionRegistry extends Registry {
 
 class ApplicationRegistry extends Registry {
     private static $instance;
-    private $freezedir = "/tmp/data";
+    private $freezedir = "tmp/data";
     private $values = array();
     private $mtimes = array();
 
@@ -85,14 +85,16 @@ class ApplicationRegistry extends Registry {
     }
 
     protected function get( $key ) {
-        $path = $this->freezedir . DIRECTORY_SEPARATOR . $key;
+        $path = $this->freezedir . '/' . $key;
         if ( file_exists( $path ) ) {
             clearstatcache();
             $mtime=filemtime( $path );
+//            var_dump($mtimes);
             if ( ! isset($this->mtimes[$key] ) ) { $this->mtimes[$key]=0; }
             if ( $mtime > $this->mtimes[$key] ) {
                 $data = file_get_contents( $path );
                 $this->mtimes[$key]=$mtime;
+//                die($data);
                 return ($this->values[$key]=unserialize( $data ));
             }
         }
@@ -104,7 +106,8 @@ class ApplicationRegistry extends Registry {
 
     protected function set( $key, $val ) {
         $this->values[$key] = $val;
-        $path = $this->freezedir . DIRECTORY_SEPARATOR . $key;
+        $path = $this->freezedir . '/' . $key;
+
         file_put_contents( $path, serialize( $val ) );
         $this->mtimes[$key]=time();
     }

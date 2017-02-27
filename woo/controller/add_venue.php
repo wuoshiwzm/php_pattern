@@ -1,14 +1,9 @@
 <?php
 namespace woo\controller;
-/**
- * Created by PhpStorm.
- * User: jim
- * Date: 2017/2/20
- * Time: 14:37
- */
+use woo\base\RequestRegistry;
 
-require_once '\..\base\RequestRegistry.php';
-$request = \woo\base\RequestRegistry::get_Request();
+require_once 'woo/base/Registry.php';
+$request = RequestRegistry::getRequest();
 
 ?>
 <html>

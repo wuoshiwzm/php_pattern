@@ -6,33 +6,19 @@
  * Time: 9:23
  */
 
-require_once ("woo/domain/Venue.php");
+//require_once ("woo/domain/Venue.php");
 require_once ('woo/base/Registry.php');
 require_once ('woo/base/Request.php');
 
 require_once ('woo/controller/AddVenueController.php');
 
-try {
-    $venues = \woo\domain\Venue::findAll();
-} catch (Exception $e){
-    include('error.php');
-    exit(0);
-}
 
-$vencontroller = new \woo\controller\AddVenueController();
-$vencontroller->process();
-
-?>
+require_once ('woo/mapper/VenueMapper.php');
+require_once ('woo/mapper/Mapper.php');
 
 
-<!---->
-<!--<html>-->
-<!--<head>-->
-<!--    <title>Venues</title>-->
-<!--</head>-->
-<!--<body>-->
-<?php //foreach ($venues as $venue) { ?>
-<!--    --><?php //print $venue->getName(); ?><!--<br>-->
-<?php //} ?>
-<!--</body>-->
-<!--</html>-->
+\woo\base\ApplicationRegistry::setDSN('mysql:host=localhost;dbname=pattern');
+//\woo\base\ApplicationRegistry::setDSN('mysql:username=root');
+$mapper = new \woo\mapper\VenueMapper();
+$venue = $mapper->find(12);
+ print_r($venue);
