@@ -1,21 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e8c2054-562a-43d2-aa85-e9cc8195c341" name="Default" comment="tes">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/invest1.xls" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/investor.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/data/dsn" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/woo/base/111RequestRegistry.php" afterPath="" />
+    <list default="true" id="9e8c2054-562a-43d2-aa85-e9cc8195c341" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/woo/base/Registry.php" afterPath="$PROJECT_DIR$/woo/base/Registry.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/woo/controller/AddVenueController.php" afterPath="$PROJECT_DIR$/woo/controller/AddVenueController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/woo/controller/PageController.php" afterPath="$PROJECT_DIR$/woo/controller/PageController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/woo/controller/add_venue.php" afterPath="$PROJECT_DIR$/woo/controller/add_venue.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/woo/mapper/EventMapper.php" afterPath="$PROJECT_DIR$/woo/mapper/EventMapper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/woo/mapper/Mapper.php" afterPath="$PROJECT_DIR$/woo/mapper/Mapper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/woo/mapper/SpaceMapper.php" afterPath="$PROJECT_DIR$/woo/mapper/SpaceMapper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/woo/mapper/VenueMapper.php" afterPath="$PROJECT_DIR$/woo/mapper/VenueMapper.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -201,20 +188,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pattern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pattern" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tmp" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -317,7 +290,7 @@
       <workItem from="1487903617220" duration="3720000" />
       <workItem from="1487921324310" duration="6465000" />
       <workItem from="1488160151226" duration="686000" />
-      <workItem from="1488178179734" duration="10371000" />
+      <workItem from="1488178179734" duration="10475000" />
     </task>
     <task id="LOCAL-00001" summary="tes">
       <created>1487570749451</created>
@@ -340,11 +313,18 @@
       <option name="project" value="LOCAL" />
       <updated>1487577621780</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="tes">
+      <created>1488191165408</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1488191165408</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40137000" />
+    <option name="totallyTimeSpent" value="40241000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
