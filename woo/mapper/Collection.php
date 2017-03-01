@@ -46,6 +46,7 @@ abstract class Collection implements \Iterator {
         }
 
         if ( isset( $this->raw[$num] ) ) {
+            //
             $this->objects[$num]=$this->mapper->createObject( $this->raw[$num] ); 
             return $this->objects[$num];
         }
