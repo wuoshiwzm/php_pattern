@@ -12,8 +12,6 @@ require_once ("woo/login/Login.php");
  * Time: 12:00
  */
 
-
-
 class Login implements Observable{
     private $observers;
     function __construct()

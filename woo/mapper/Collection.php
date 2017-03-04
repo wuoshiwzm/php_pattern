@@ -40,13 +40,12 @@ abstract class Collection implements \Iterator {
         $this->notifyAccess();
         if ( $num >= $this->total || $num < 0 ) {
             return null;
-        }   
-        if ( isset( $this->objects[$num]) ) {
-            return $this->objects[$num]; 
         }
-
+        if ( isset( $this->objects[$num]) ) {
+            return $this->objects[$num];
+        }
         if ( isset( $this->raw[$num] ) ) {
-            //
+            //************
             $this->objects[$num]=$this->mapper->createObject( $this->raw[$num] ); 
             return $this->objects[$num];
         }
