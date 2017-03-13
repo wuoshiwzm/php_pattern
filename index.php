@@ -49,11 +49,14 @@ class myIterator implements Iterator {
         $this->position = 0;
     }
 
+    //指向表的开头
     function rewind() {
+
         var_dump(__METHOD__);
         $this->position = 0;
     }
 
+    //指向表的当前指针处元素
     function current() {
         var_dump(__METHOD__);
         return $this->array[$this->position];
@@ -77,7 +80,12 @@ class myIterator implements Iterator {
 
 $it = new myIterator;
 
+
 foreach($it as $key => $value) {
-    var_dump($key, $value);
-    echo "\n";
+    //echo 'key:::';
+
+    //echo $key;
+    //echo "---value:::";
+    //echo $value;
+    //echo "\n";
 }
