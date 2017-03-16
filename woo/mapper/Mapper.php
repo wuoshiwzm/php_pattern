@@ -57,6 +57,8 @@ abstract class Mapper
     protected abstract function doCreateObject(array $array);
     protected abstract function doInsert(DomainObject $object);
     protected abstract function selectStmt();
+
+
 }
 
 ?>

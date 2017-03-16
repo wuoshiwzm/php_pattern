@@ -2,6 +2,7 @@
 namespace woo\mapper;
 
 require_once("woo/domain/Collections.php");
+require_once("woo/mapper/Mapper.php");
 
 abstract class Collection implements \Iterator
 {
@@ -22,7 +23,7 @@ abstract class Collection implements \Iterator
         $this->mapper = $mapper;
     }
 
-    function add(\woo\domain\DomainObject $object)
+    function add   (\woo\domain\DomainObject $object)
     {
         $class = $this->targetClass();
         if (!($object instanceof $class)) {

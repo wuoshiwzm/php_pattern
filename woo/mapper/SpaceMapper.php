@@ -14,15 +14,14 @@ class SpaceMapper extends Mapper
 
     function __construct() {
         parent::__construct();
-        $this->selectAllStmt = self::$PDO->prepare(
-                            "SELECT * FROM space");
         $this->selectStmt = self::$PDO->prepare(
                             "SELECT * FROM space WHERE id=?");
         $this->updateStmt = self::$PDO->prepare(
                             "UPDATE space SET name=?, id=? WHERE id=?");
         $this->insertStmt = self::$PDO->prepare(
-                            "INSERT into space ( name, venue ) 
-                             values( ?, ?)");
+                            "INSERT into space ( name, venue )  values( ?, ?)");
+        $this->selectAllStmt = self::$PDO->prepare(
+            "SELECT * FROM space");
         $this->findByVenueStmt = self::$PDO->prepare(
                             "SELECT * FROM space where venue=?");
     } 

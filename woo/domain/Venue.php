@@ -18,9 +18,7 @@ class Venue extends DomainObject {
 
     function getSpaces() {
         if ( ! isset( $this->spaces ) ) {
-            $finder = self::getFinder( 'woo\\domain\\Space' ); 
-            $this->spaces = $finder->findByVenue( $this->getId() );
-            //$this->spaces = self::getCollection("woo\\domain\\Space");
+            $this->spaces = self::getCollection("woo\\domain\\Space");
         }
         return $this->spaces;
     } 

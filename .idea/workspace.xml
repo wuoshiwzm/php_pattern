@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e8c2054-562a-43d2-aa85-e9cc8195c341" name="Default" comment="tes">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/pattern.iml" afterPath="$PROJECT_DIR$/.idea/pattern.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/woo/mapper/VenueCollection.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/woo/domain/HelperFactory.php" afterPath="$PROJECT_DIR$/woo/domain/HelperFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/woo/domain/Venue.php" afterPath="$PROJECT_DIR$/woo/domain/Venue.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/woo/mapper/Collection.php" afterPath="$PROJECT_DIR$/woo/mapper/Collection.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/invest1.xls" afterPath="$PROJECT_DIR$/Lglass/invest1.xls" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/investor.txt" afterPath="$PROJECT_DIR$/Lglass/investor.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/woo/mapper/Collections.php" afterPath="$PROJECT_DIR$/woo/mapper/Collections.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/woo/mapper/Mapper.php" afterPath="$PROJECT_DIR$/woo/mapper/Mapper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/woo/mapper/SpaceMapper.php" afterPath="$PROJECT_DIR$/woo/mapper/SpaceMapper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/woo/mapper/VenueMapper.php" afterPath="$PROJECT_DIR$/woo/mapper/VenueMapper.php" />
     </list>
     <list id="0cd5e6c5-70a2-46c6-b44d-e6b08f342ce1" name="Rejected commit: Default" comment="tes" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,11 +30,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Collection.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/woo/mapper/Collection.php">
+      <file leaf-file-name="SpaceMapper.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/woo/mapper/SpaceMapper.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="20" selection-end-column="9" />
+            <state relative-caret-position="352">
+              <caret line="76" column="33" lean-forward="true" selection-start-line="76" selection-start-column="33" selection-end-line="76" selection-end-column="33" />
+              <folding>
+                <element signature="e#438#520#0#PHP" expanded="false" />
+                <element signature="e#550#642#0#PHP" expanded="false" />
+                <element signature="e#672#772#0#PHP" expanded="false" />
+                <element signature="e#805#860#0#PHP" expanded="false" />
+                <element signature="e#998#1093#0#PHP" expanded="false" />
+                <element signature="e#1099#1574#0#PHP" expanded="false" />
+                <element signature="e#1580#1657#0#PHP" expanded="false" />
+                <element signature="e#1663#2071#0#PHP" expanded="false" />
+                <element signature="e#1775#1880#0#PHP" expanded="false" />
+                <element signature="e#2081#2271#0#PHP" expanded="false" />
+                <element signature="e#2277#2340#0#PHP" expanded="false" />
+                <element signature="e#2346#2415#0#PHP" expanded="false" />
+                <marker date="1489567461120" expanded="true" signature="488:518" ph="SELECT * FRO... space" />
+                <marker date="1489567461120" expanded="true" signature="600:640" ph="UPDATE space... " />
+                <marker date="1489567461120" expanded="true" signature="722:770" ph="INSERT into space... " />
+                <marker date="1489567461120" expanded="true" signature="839:858" ph="SELECT * FRO... space" />
+                <marker date="1489567461120" expanded="true" signature="945:978" ph="SELECT * FRO... space" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Collections.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/woo/mapper/Collections.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -66,23 +98,30 @@
         <option value="$PROJECT_DIR$/test.php" />
         <option value="$PROJECT_DIR$/woo/view/ViewHelper.php" />
         <option value="$PROJECT_DIR$/woo/view/addspace.php" />
-        <option value="$PROJECT_DIR$/woo/mapper/SpaceMapper.php" />
         <option value="$PROJECT_DIR$/woo/mapper/EventMapper.php" />
         <option value="$PROJECT_DIR$/woo/base/RequestRegistry.php" />
         <option value="$PROJECT_DIR$/woo/controller/PageController.php" />
         <option value="$PROJECT_DIR$/woo/controller/add_venue.php" />
         <option value="$PROJECT_DIR$/woo/controller/AddVenueController.php" />
         <option value="$PROJECT_DIR$/woo/base/Registry.php" />
-        <option value="$PROJECT_DIR$/woo/mapper/Mapper.php" />
-        <option value="$PROJECT_DIR$/woo/mapper/VenueMapper.php" />
         <option value="$PROJECT_DIR$/woo/database/Database.php" />
         <option value="$PROJECT_DIR$/woo/login/Observer.php" />
         <option value="$PROJECT_DIR$/woo/login/Observable.php" />
         <option value="$PROJECT_DIR$/woo/login/SecurityMonitor.php" />
         <option value="$PROJECT_DIR$/investor.txt" />
         <option value="$PROJECT_DIR$/woo/login/Login.php" />
+        <option value="$PROJECT_DIR$/woo/mapper/VenueCollection.php" />
+        <option value="$PROJECT_DIR$/woo/mapper/VenueCollections.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/woo/mapper/Collection.php" />
+        <option value="$PROJECT_DIR$/woo/domain/HelperFactory.php" />
+        <option value="$USER_HOME$/Desktop/approve.js" />
+        <option value="$USER_HOME$/Desktop/Check.php" />
+        <option value="$PROJECT_DIR$/woo/domain/Venue.php" />
+        <option value="$PROJECT_DIR$/woo/mapper/Mapper.php" />
+        <option value="$PROJECT_DIR$/woo/mapper/VenueMapper.php" />
+        <option value="$PROJECT_DIR$/woo/mapper/SpaceMapper.php" />
+        <option value="$PROJECT_DIR$/woo/mapper/Collections.php" />
       </list>
     </option>
   </component>
@@ -94,7 +133,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-15" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
@@ -116,6 +156,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -157,18 +198,17 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mapper" />
+              <option name="myItemId" value="domain" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../xjdh" />
   </component>
@@ -269,6 +309,12 @@
       <workItem from="1488512079728" duration="5808000" />
       <workItem from="1488688902689" duration="25000" />
       <workItem from="1489296550238" duration="2855000" />
+      <workItem from="1489371159047" duration="1721000" />
+      <workItem from="1489374402359" duration="10000" />
+      <workItem from="1489477384693" duration="1089000" />
+      <workItem from="1489479816916" duration="8581000" />
+      <workItem from="1489543848500" duration="622000" />
+      <workItem from="1489563958852" duration="6072000" />
     </task>
     <task id="LOCAL-00001" summary="tes">
       <created>1487570749451</created>
@@ -309,13 +355,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62260000" />
+    <option name="totallyTimeSpent" value="80355000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-15" y="0" width="1382" height="744" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16187595" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17473525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -378,15 +424,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.php" />
-    <entry file="file://$PROJECT_DIR$/error.php" />
-    <entry file="file://$PROJECT_DIR$/app_controller/error.php" />
-    <entry file="file://$PROJECT_DIR$/app_controller/test.php" />
-    <entry file="file://$PROJECT_DIR$/app_controller/woo/base/Registry.php" />
-    <entry file="file://$PROJECT_DIR$/app_controller/woo/base/Request.php" />
-    <entry file="file://$PROJECT_DIR$/app_controller/index.php" />
-    <entry file="file://$PROJECT_DIR$/app_controller/woo/domain/Venue.php" />
-    <entry file="file://$PROJECT_DIR$/app_controller/woo/controller/PageController.php" />
     <entry file="file://$PROJECT_DIR$/app_controller/woo/controller/AddVenueController.php" />
     <entry file="file://$PROJECT_DIR$/app_controller/woo/controller/add_venue.php" />
     <entry file="file://$PROJECT_DIR$/app_controller/woo/base/RequestRegistry.php" />
@@ -449,13 +486,6 @@
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/PDO.php" />
-    <entry file="file://$PROJECT_DIR$/woo/mapper/SpaceMapper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/woo/mapper/EventMapper.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -529,20 +559,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_______app_controller/woo/domain/Venue.php" />
-    <entry file="file://$PROJECT_DIR$/woo/domain/ObjectWatcher.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/woo/mapper/Collections.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/woo/login/Observer.php" />
     <entry file="file://$PROJECT_DIR$/woo/login/SecurityMonitor.php" />
     <entry file="file://$PROJECT_DIR$/woo/login/Observable.php">
@@ -566,56 +582,298 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/Core_c.php" />
-    <entry file="file://$PROJECT_DIR$/woo/mapper/Mapper.php">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/Core_c.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/woo/domain/DomainObject.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/woo/domain/Venue.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/woo/mapper/VenueMapper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-182">
-          <caret line="31" column="30" lean-forward="true" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
-          <folding>
-            <marker date="1488191852002" expanded="true" signature="395:414" ph="SELECT * FRO... venue" />
-            <marker date="1488191852002" expanded="true" signature="480:510" ph="SELECT * FRO... venue" />
-            <marker date="1488191852002" expanded="true" signature="576:616" ph="UPDATE venue... " />
-            <marker date="1488191852002" expanded="true" signature="682:720" ph="INSERT into venue... " />
-          </folding>
+        <state relative-caret-position="263">
+          <caret line="39" column="10" lean-forward="false" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="54" column="16" lean-forward="false" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="16" />
+        <state relative-caret-position="117">
+          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding>
+            <element signature="n#myIterator#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/woo/mapper/VenueCollection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/arrange.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Check.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-67">
+          <caret line="629" column="1" lean-forward="false" selection-start-line="629" selection-start-column="1" selection-end-line="629" selection-end-column="1" />
+          <folding>
+            <element signature="e#7#52#0#PHP" expanded="false" />
+            <element signature="n#__construct#0;n#Check#0;n#!!top" expanded="false" />
+            <element signature="e#192#392#0#PHP" expanded="false" />
+            <element signature="e#266#392#0#PHP" expanded="false" />
+            <element signature="e#404#427#0#PHP" expanded="false" />
+            <element signature="n#index#0;n#Check#0;n#!!top" expanded="false" />
+            <element signature="e#501#530#0#PHP" expanded="false" />
+            <element signature="n#Check#0;n#Check#0;n#!!top" expanded="false" />
+            <element signature="e#1090#1534#0#PHP" expanded="false" />
+            <element signature="e#1544#1988#0#PHP" expanded="false" />
+            <element signature="e#1998#2438#0#PHP" expanded="false" />
+            <element signature="e#2451#2507#0#PHP" expanded="false" />
+            <element signature="n#approveSub#0;n#Check#0;n#!!top" expanded="false" />
+            <element signature="e#3216#3770#0#PHP" expanded="false" />
+            <element signature="e#3280#3770#0#PHP" expanded="false" />
+            <element signature="e#3408#3760#0#PHP" expanded="false" />
+            <element signature="e#5277#5333#0#PHP" expanded="false" />
+            <element signature="n#approveDev#0;n#Check#0;n#!!top" expanded="false" />
+            <element signature="e#6033#6757#0#PHP" expanded="false" />
+            <element signature="e#6097#6757#0#PHP" expanded="false" />
+            <element signature="e#6170#6746#0#PHP" expanded="false" />
+            <element signature="e#6290#6732#0#PHP" expanded="false" />
+            <element signature="e#6352#6713#0#PHP" expanded="false" />
+            <element signature="e#6379#6712#0#PHP" expanded="false" />
+            <element signature="e#8265#8321#0#PHP" expanded="false" />
+            <element signature="n#approveCase#0;n#Check#0;n#!!top" expanded="false" />
+            <element signature="e#8560#8645#0#PHP" expanded="false" />
+            <element signature="e#8675#8763#0#PHP" expanded="false" />
+            <element signature="e#8798#9035#0#PHP" expanded="false" />
+            <element signature="e#9187#9244#0#PHP" expanded="false" />
+            <element signature="n#unapproveCase#0;n#Check#0;n#!!top" expanded="false" />
+            <element signature="e#9580#9645#0#PHP" expanded="false" />
+            <element signature="e#9894#9943#0#PHP" expanded="false" />
+            <element signature="n#getQuestions#0;n#Check#0;n#!!top" expanded="false" />
+            <element signature="e#10031#10221#0#PHP" expanded="false" />
+            <element signature="e#10259#10357#0#PHP" expanded="false" />
+            <element signature="n#getApplyInfo#0;n#Check#0;n#!!top" expanded="false" />
+            <element signature="e#10705#10779#0#PHP" expanded="false" />
+            <element signature="e#10803#10920#0#PHP" expanded="false" />
+            <element signature="e#10946#11065#0#PHP" expanded="false" />
+            <element signature="e#11075#11387#0#PHP" expanded="false" />
+            <element signature="e#11441#11539#0#PHP" expanded="false" />
+            <element signature="n#getCheckInfo#0;n#Check#0;n#!!top" expanded="false" />
+            <element signature="e#11888#11962#0#PHP" expanded="false" />
+            <element signature="e#11986#12103#0#PHP" expanded="false" />
+            <element signature="e#12129#12248#0#PHP" expanded="false" />
+            <element signature="e#12258#12572#0#PHP" expanded="false" />
+            <element signature="e#12626#12681#0#PHP" expanded="false" />
+            <element signature="n#getInfo#0;n#Check#0;n#!!top" expanded="false" />
+            <element signature="e#13040#13400#0#PHP" expanded="false" />
+            <element signature="e#13625#13653#0#PHP" expanded="false" />
+            <element signature="n#arrange#0;n#Check#0;n#!!top" expanded="false" />
+            <element signature="e#15444#20058#0#PHP" expanded="false" />
+            <element signature="e#15929#16013#0#PHP" expanded="false" />
+            <element signature="e#16084#16168#0#PHP" expanded="false" />
+            <element signature="e#16303#16390#0#PHP" expanded="false" />
+            <element signature="e#17179#17193#0#PHP" expanded="false" />
+            <element signature="e#17360#18354#0#PHP" expanded="false" />
+            <element signature="e#17404#18340#0#PHP" expanded="false" />
+            <element signature="e#17448#17615#0#PHP" expanded="false" />
+            <element signature="e#17636#17807#0#PHP" expanded="false" />
+            <element signature="e#17828#18036#0#PHP" expanded="false" />
+            <element signature="e#18057#18208#0#PHP" expanded="false" />
+            <element signature="e#18229#18322#0#PHP" expanded="false" />
+            <element signature="e#18390#18629#0#PHP" expanded="false" />
+            <element signature="e#18665#18912#0#PHP" expanded="false" />
+            <element signature="e#18948#19200#0#PHP" expanded="false" />
+            <element signature="e#19236#19488#0#PHP" expanded="false" />
+            <element signature="e#20182#21153#0#PHP" expanded="false" />
+            <element signature="e#20388#20501#0#PHP" expanded="false" />
+            <element signature="e#21282#21496#0#PHP" expanded="false" />
+            <element signature="e#21511#21561#0#PHP" expanded="false" />
+            <element signature="e#21782#22077#0#PHP" expanded="false" />
+            <element signature="e#22687#22724#0#PHP" expanded="false" />
+            <element signature="n#question#0;n#Check#0;n#!!top" expanded="false" />
+            <element signature="n#updateQuestion#0;n#Check#0;n#!!top" expanded="false" />
+            <element signature="e#23935#24370#0#PHP" expanded="false" />
+            <element signature="e#24180#24370#0#PHP" expanded="false" />
+            <element signature="e#24403#24449#0#PHP" expanded="false" />
+            <element signature="e#24455#24478#0#PHP" expanded="false" />
+            <element signature="n#status#0;n#Check#0;n#!!top" expanded="false" />
+            <element signature="e#24527#24564#0#PHP" expanded="false" />
+            <element signature="n#people#0;n#Check#0;n#!!top" expanded="false" />
+            <element signature="e#24704#24767#0#PHP" expanded="false" />
+            <element signature="e#24894#25107#0#PHP" expanded="false" />
+            <element signature="n#updateRole#0;n#Check#0;n#!!top" expanded="false" />
+            <element signature="e#28179#28225#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/woo/domain/Collections.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Mp_master.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="50" column="36" lean-forward="true" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/approve.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/woo/domain/HelperFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="27" column="44" lean-forward="true" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/woo/domain/Space.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-207">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/woo/domain/Finders.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="40" lean-forward="true" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/woo/mapper/Collection.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="20" selection-end-column="9" />
+        <state relative-caret-position="186">
+          <caret line="16" column="66" lean-forward="false" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
+          <folding>
+            <element signature="e#326#565#0#PHP" expanded="false" />
+            <element signature="e#403#526#0#PHP" expanded="false" />
+            <element signature="e#571#894#0#PHP" expanded="false" />
+            <element signature="e#674#785#0#PHP" expanded="false" />
+            <element signature="e#938#1019#0#PHP" expanded="false" />
+            <element signature="e#1025#1473#0#PHP" expanded="false" />
+            <element signature="e#1100#1174#0#PHP" expanded="false" />
+            <element signature="e#1183#1268#0#PHP" expanded="false" />
+            <element signature="e#1277#1467#0#PHP" expanded="false" />
+            <element signature="e#1479#1543#0#PHP" expanded="false" />
+            <element signature="e#1549#1632#0#PHP" expanded="false" />
+            <element signature="e#1638#1702#0#PHP" expanded="false" />
+            <element signature="e#1708#1869#0#PHP" expanded="false" />
+            <element signature="e#1791#1842#0#PHP" expanded="false" />
+            <element signature="e#1875#1955#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/woo/mapper/VenueMapper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="28" column="26" lean-forward="false" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+          <folding>
+            <element signature="e#696#770#0#PHP" expanded="false" />
+            <element signature="e#884#1212#0#PHP" expanded="false" />
+            <element signature="e#1218#1299#0#PHP" expanded="false" />
+            <element signature="e#1305#1603#0#PHP" expanded="false" />
+            <element signature="e#1609#1796#0#PHP" expanded="false" />
+            <element signature="e#1875#1948#0#PHP" expanded="false" />
+            <marker date="1489566919947" expanded="true" signature="443:462" ph="SELECT * FRO... venue" />
+            <marker date="1489566919947" expanded="true" signature="528:558" ph="SELECT * FRO... venue" />
+            <marker date="1489566919947" expanded="true" signature="624:664" ph="UPDATE venue... " />
+            <marker date="1489566919947" expanded="false" signature="730:768" ph="INSERT into venue... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/woo/mapper/Mapper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="58" column="25" lean-forward="false" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="45" />
+          <folding>
+            <element signature="e#116#486#0#PHP" expanded="false" />
+            <element signature="e#153#480#0#PHP" expanded="false" />
+            <element signature="e#251#345#0#PHP" expanded="false" />
+            <element signature="e#492#974#0#PHP" expanded="false" />
+            <element signature="e#533#599#0#PHP" expanded="false" />
+            <element signature="e#533#614#0#PHP" expanded="false" />
+            <element signature="e#767#826#0#PHP" expanded="false" />
+            <element signature="e#835#897#0#PHP" expanded="false" />
+            <element signature="e#980#1088#0#PHP" expanded="false" />
+            <element signature="e#1094#1183#0#PHP" expanded="false" />
+            <marker date="1489566919943" expanded="false" signature="567:597" ph="SELECT * FRO... venue" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/woo/domain/Venue.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/woo/domain/DomainObject.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/woo/domain/ObjectWatcher.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/woo/mapper/SpaceMapper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="76" column="33" lean-forward="true" selection-start-line="76" selection-start-column="33" selection-end-line="76" selection-end-column="33" />
+          <folding>
+            <element signature="e#438#520#0#PHP" expanded="false" />
+            <element signature="e#550#642#0#PHP" expanded="false" />
+            <element signature="e#672#772#0#PHP" expanded="false" />
+            <element signature="e#805#860#0#PHP" expanded="false" />
+            <element signature="e#998#1093#0#PHP" expanded="false" />
+            <element signature="e#1099#1574#0#PHP" expanded="false" />
+            <element signature="e#1580#1657#0#PHP" expanded="false" />
+            <element signature="e#1663#2071#0#PHP" expanded="false" />
+            <element signature="e#1775#1880#0#PHP" expanded="false" />
+            <element signature="e#2081#2271#0#PHP" expanded="false" />
+            <element signature="e#2277#2340#0#PHP" expanded="false" />
+            <element signature="e#2346#2415#0#PHP" expanded="false" />
+            <marker date="1489567461120" expanded="true" signature="488:518" ph="SELECT * FRO... space" />
+            <marker date="1489567461120" expanded="true" signature="600:640" ph="UPDATE space... " />
+            <marker date="1489567461120" expanded="true" signature="722:770" ph="INSERT into space... " />
+            <marker date="1489567461120" expanded="true" signature="839:858" ph="SELECT * FRO... space" />
+            <marker date="1489567461120" expanded="true" signature="945:978" ph="SELECT * FRO... space" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/woo/mapper/Collections.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
           <folding />
         </state>
       </provider>

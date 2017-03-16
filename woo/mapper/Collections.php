@@ -10,7 +10,7 @@ class VenueCollection
         implements \woo\domain\VenueCollection {
 
     function targetClass( ) {
-        return "\woo\domain\Venue";
+        return "\\woo\\domain\\Venue";
     }
 }
 
@@ -19,7 +19,7 @@ class SpaceCollection
         implements \woo\domain\SpaceCollection {
 
     function targetClass( ) {
-        return "\woo\domain\Space";
+        return "\\woo\\domain\\Space";
     }
 }
 
@@ -28,7 +28,7 @@ class EventCollection
         implements \woo\domain\EventCollection {
 
     function targetClass( ) {
-        return "\woo\domain\Event";
+        return "\\woo\\domain\\Event";
     }
 }
 

@@ -9,6 +9,8 @@ if ( ! isset( $EG_DISABLE_INCLUDES ) ) {
 }
 
 class HelperFactory {
+
+    //获取映射器
     static function getFinder( $type ) {
         $type = preg_replace( '|^.*\\\|', "", $type );
         $mapper = "\\woo\\mapper\\{$type}Mapper";
@@ -18,7 +20,9 @@ class HelperFactory {
         throw new \woo\base\AppException( "Unknown: $mapper" );
     }
 
+    //获取集合
     static function getCollection( $type ) {
+
         $type = preg_replace( '|^.*\\\|', "", $type );
         $collection = "\\woo\\mapper\\{$type}Collection";
         if ( class_exists( $collection ) ) {

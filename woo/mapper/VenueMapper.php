@@ -5,12 +5,12 @@ namespace woo\mapper;
 require_once("woo/mapper/Mapper.php");
 require_once("woo/base/Exceptions.php");
 require_once("woo/mapper/Collections.php");
-//require_once("woo/domain.php");
+require_once("woo/domain/Finders.php");
+require_once ('woo/mapper/SpaceMapper.php');
 
 class VenueMapper extends Mapper
-    //implements \woo\domain\VenueFinder
+    implements \woo\domain\VenueFinder
 {
-
     function __construct()
     {
         parent::__construct();
@@ -33,6 +33,9 @@ class VenueMapper extends Mapper
     {
         $obj = new \woo\domain\Venue($array['id']);
         $obj->setname($array['name']);
+        $space_mapper = new SpaceMapper();
+        $space_collection = $space_mapper->findByVenue($array['id']);
+        $obj->setSpaces($space_collection);
         return $obj;
     }
 
@@ -65,6 +68,11 @@ class VenueMapper extends Mapper
     function selectAllStmt()
     {
         return $this->selectAllStmt;
+    }
+
+    //接口实现
+    function findAll(){
+
     }
 
 }

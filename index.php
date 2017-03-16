@@ -11,12 +11,13 @@ use woo\domain\Venue;
 //require_once ("woo/domain/Venue.php");
 require_once ('woo/base/Registry.php');
 require_once ('woo/base/Request.php');
-
 require_once ('woo/controller/AddVenueController.php');
-
+require_once ('woo/mapper/Collection.php');
 
 require_once ('woo/mapper/VenueMapper.php');
 require_once ('woo/mapper/Mapper.php');
+
+require_once ('woo/domain/HelperFactory.php');
 
 $i = 'test';
 
@@ -38,7 +39,7 @@ class t{
 
 
 class myIterator implements Iterator {
-    private $position = 0;
+    private $position;
     private $array = array(
         "firstelement",
         "secondelement",
@@ -78,14 +79,13 @@ class myIterator implements Iterator {
     }
 }
 
-$it = new myIterator;
+$collection =\woo\domain\HelperFactory::getCollection('woo\domain\Venue');
+$collection->add( new \woo\domain\Venue(null,'Loud and Thumping'));
+$collection->add( new \woo\domain\Venue(null,'Loud and Thumpin2g'));
+//var_dump($collection);
 
-
-foreach($it as $key => $value) {
-    //echo 'key:::';
-
-    //echo $key;
-    //echo "---value:::";
-    //echo $value;
-    //echo "\n";
+foreach ($collection as $a){
+//    var_dump($a);
+    print $a->getName();
 }
+
